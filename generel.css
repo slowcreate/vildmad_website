@@ -1,0 +1,17 @@
+h1 {
+  color: #ff8a00;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 48px;
+}
+
+h2 {
+  color: #aea5e3;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 32px;
+}
+
+/*FORSIDE*/
+
+body {
+  background-color: #132405;
+}

@@ -5,6 +5,12 @@
 }
 
 /* MENU på index.html */
+#index_menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /* margin: 50px; */
+}
 #index_menu li {
   display: flex;
   flex-direction: row;
@@ -18,7 +24,40 @@
 }
 
 #index_menu h2 {
-  margin-left: 20px;
+  margin-left: 15px;
   font-size: 24px;
   padding-top: 50px;
+}
+
+@media (min-width: 800px) {
+  #index_menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 130px;
+    gap: 50px;
+  }
+  #index_menu h2 {
+    display: none;
+  }
+
+  #index_menu li {
+    position: relative;
+  }
+
+  #index_menu li:hover h2 {
+    display: block;
+    position: absolute;
+    top: -25%;
+    left: 0;
+    text-align: center;
+    /* background-color: #132405;  */
+    padding: 0;
+    margin: 0;
+  }
+  #index_menu svg {
+    background-color: #ff8a00;
+  }
 }

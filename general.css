@@ -21,6 +21,13 @@ h2 {
   font-weight: 350;
   text-transform: uppercase;
 }
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
 /* LOGO mobil */
 
 /* LOGO computer */

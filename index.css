@@ -27,13 +27,7 @@
 }
 
 /* button article */
-span {
-  display: block;
-  max-width: 1300px;
-  height: 3px;
-  background-color: #ff8a00;
-  margin: 30px;
-}
+
 section {
   display: flex;
   flex-direction: column;

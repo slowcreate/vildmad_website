@@ -73,6 +73,14 @@ footer menu li {
   margin-left: 10px;
 }
 
+span {
+  display: block;
+  max-width: 1300px;
+  height: 3px;
+  background-color: #ff8a00;
+  margin: 30px;
+}
+
 .span_footer {
   background-color: #132405;
   margin: 20px;
@@ -90,4 +98,21 @@ footer menu li {
 }
 .some img {
   max-width: 48px;
+}
+
+@media (min-width: 800px) {
+  footer menu {
+    margin: 65px;
+    margin-bottom: 25px;
+    margin-top: 38px;
+  }
+
+  span {
+    margin: 75px;
+    margin-top: 0;
+  }
+
+  button {
+    margin-bottom: 50px;
+  }
 }

@@ -1,7 +1,7 @@
 /* LOGO mobil på index.html*/
 #logo {
-  padding: 35px;
-  max-width: 600px;
+  padding: 15px;
+  max-width: 390px;
 }
 
 /* MENU på index.html */
@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 50px;
+  margin: 40px;
 }
 #index_menu img {
   max-width: 150px;

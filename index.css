@@ -61,7 +61,7 @@ button {
   padding-top: 15px;
   text-transform: uppercase;
   color: #132405;
-  background-color: #ff8a00;
+  background-color: #40793e;
   font-family: "Josefin Sans", sans-serif;
   border: none;
   border-radius: 3px;
@@ -69,6 +69,8 @@ button {
 }
 
 button:hover {
+  color: #132405;
+  background-color: #ff8a00;
 }
 
 @media (min-width: 800px) {

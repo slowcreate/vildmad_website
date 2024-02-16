@@ -1,3 +1,11 @@
+h4 {
+  color: #ff8a00;
+}
+
+footer h4 {
+  color: #132405;
+}
+
 #logo {
   padding: 15px;
   max-width: 390px;
@@ -6,4 +14,42 @@
 #index_menu img {
   max-width: 90px;
   max-height: 90px;
+}
+
+/* Style for the file input container */
+.file-input-container {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 10px; /* Adjust as needed */
+}
+
+/* Style for the custom button */
+.custom-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #132405;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style for the actual file input */
+.file-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+.radio_seasons {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_grid {
 }

@@ -8,6 +8,11 @@ img {
   height: 100%;
 }
 
+p {
+  color: #aea5e3;
+  font-family: "Open Sans";
+}
+
 h1 {
   color: #ff8a00;
   font-family: "Josefin Sans", sans-serif;

@@ -30,7 +30,55 @@ h3 {
 }
 
 .illustrations {
-  display: ;
+  position: relative;
+}
+
+.svamp1_container {
+  position: absolute;
+  width: 32%;
+  aspect-ratio: 79/75;
+  top: -1%;
+  left: 0%;
+  transform: translateY(-240%);
+}
+
+.svamp1_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/svamp1.svg);
+  background-size: cover;
+}
+
+.svamp2_container {
+  position: absolute;
+  width: 22%;
+  aspect-ratio: 17/15;
+  top: -1%;
+  left: 72%;
+  transform: translateY(-170%);
+}
+
+.svamp2_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/svamp2.svg);
+  background-size: cover;
+}
+
+.svamp3_container {
+  position: absolute;
+  width: 24%;
+  aspect-ratio: 62/75;
+  top: -1%;
+  left: 75%;
+  transform: translateY(70%);
+}
+
+.svamp3_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/svamp3.svg);
+  background-size: cover;
 }
 
 .othermushrooms {

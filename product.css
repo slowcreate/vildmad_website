@@ -1,0 +1,41 @@
+.product_headline {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.img_product {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.description {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.info_product {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.othermushrooms {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.grid_mushrooms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.mushroom_1,
+.mushroom_2 {
+  margin-bottom: 10px;
+}

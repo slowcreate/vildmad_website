@@ -10,7 +10,8 @@ img {
 
 p {
   color: #aea5e3;
-  font-family: "Open Sans";
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9rem;
 }
 
 h1 {
@@ -27,6 +28,15 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  color: #aea5e3;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 550;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
 h4 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
@@ -35,6 +45,7 @@ h4 {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 ul {
   list-style: none;
@@ -47,6 +58,24 @@ ul {
 
 body {
   background-color: #132405;
+}
+
+button {
+  padding: 60px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-transform: uppercase;
+  color: #132405;
+  background-color: #40793e;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  border-radius: 3px;
+  /* margin-top: 3px; */
+}
+
+button:hover {
+  color: #132405;
+  background-color: #ff8a00;
 }
 
 /*FOOTER*/

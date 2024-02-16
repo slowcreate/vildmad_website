@@ -16,15 +16,13 @@ footer h4 {
   max-height: 90px;
 }
 
-/* Style for the file input container */
 .file-input-container {
   position: relative;
   overflow: hidden;
   display: inline-block;
-  margin-bottom: 10px; /* Adjust as needed */
+  margin-bottom: 10px;
 }
 
-/* Style for the custom button */
 .custom-button {
   display: inline-block;
   padding: 10px 15px;
@@ -35,7 +33,6 @@ footer h4 {
   border-radius: 5px;
 }
 
-/* Style for the actual file input */
 .file-input {
   position: absolute;
   top: 0;
@@ -52,4 +49,5 @@ footer h4 {
 }
 
 .form_grid {
+  display: grid;
 }

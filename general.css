@@ -10,7 +10,8 @@ img {
 
 p {
   color: #aea5e3;
-  font-family: "Open Sans";
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.9rem;
 }
 
 h1 {

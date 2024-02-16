@@ -60,7 +60,7 @@ body {
   background-color: #132405;
 }
 
-button {
+.submit {
   padding: 60px;
   padding-bottom: 15px;
   padding-top: 15px;
@@ -73,7 +73,7 @@ button {
   /* margin-top: 3px; */
 }
 
-button:hover {
+.submit:hover {
   color: #132405;
   background-color: #ff8a00;
 }

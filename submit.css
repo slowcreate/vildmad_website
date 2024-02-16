@@ -17,6 +17,12 @@ footer h4 {
   max-height: 90px;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .file-input-container {
   position: relative;
   overflow: hidden;
@@ -52,7 +58,7 @@ footer h4 {
 input {
   background-color: #aea5e3;
   border: none;
-  width: 180px;
+  width: 300px;
   height: 35px;
   border-radius: 5px;
 }
@@ -60,11 +66,14 @@ input {
 textarea {
   background-color: #aea5e3;
   border-radius: 5px;
+  width: 300px;
+  height: 150px;
 }
 
 a {
   color: #aea5e3;
   font-family: "Josefin Sans", sans-serif;
+  font-size: small;
 }
 
 a:hover {

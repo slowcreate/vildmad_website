@@ -11,6 +11,7 @@ img {
 p {
   color: #aea5e3;
   font-family: "Open Sans";
+  font-size: 18px;
 }
 
 h1 {
@@ -25,6 +26,15 @@ h2 {
   font-size: 32px;
   font-weight: 350;
   text-transform: uppercase;
+}
+
+h3 {
+  color: #aea5e3;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 550;
+  text-transform: uppercase;
+  margin: 20px;
 }
 
 h4 {

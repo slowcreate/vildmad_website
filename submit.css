@@ -1,5 +1,6 @@
 h4 {
   color: #ff8a00;
+  margin-top: 20px;
 }
 
 footer h4 {
@@ -48,6 +49,32 @@ footer h4 {
   flex-direction: column;
 }
 
-.form_grid {
-  display: grid;
+input {
+  background-color: #aea5e3;
+  border: none;
+  width: 180px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+textarea {
+  background-color: #aea5e3;
+  border-radius: 5px;
+}
+
+a {
+  color: #aea5e3;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 800px) {
+  .form_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }

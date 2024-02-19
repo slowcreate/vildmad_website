@@ -41,12 +41,60 @@ h3 {
 }
 
 .product_submit_knap article {
-  text-align: center; /* Centrerer teksten vandret */
+  text-align: center;
   margin-bottom: 50px;
 }
 
 .illustrations {
-  display: ;
+  position: relative;
+}
+
+.svamp1_container {
+  position: absolute;
+  width: 22%;
+  aspect-ratio: 79/75;
+  top: -1%;
+  left: 5%;
+  transform: translateY(-380%);
+}
+
+.svamp1_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/svamp1.svg);
+  background-size: cover;
+}
+
+.svamp2_container {
+  position: absolute;
+  width: 22%;
+  aspect-ratio: 17/15;
+  top: -1%;
+  left: 74%;
+  transform: translateY(-100%);
+}
+
+.svamp2_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/svamp2.svg);
+  background-size: cover;
+}
+
+.svamp3_container {
+  position: absolute;
+  width: 24%;
+  aspect-ratio: 62/75;
+  top: -1%;
+  left: 15%;
+  transform: translateY(80%);
+}
+
+.svamp3_sprite {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/svamp3.svg);
+  background-size: cover;
 }
 
 .othermushrooms {
@@ -108,6 +156,58 @@ h3 {
 
   .info_product p {
     margin-bottom: 30px; /* Tilføjer luft mellem hver paragraf (juster efter behov) */
+  }
+
+  .illustrations {
+    position: relative;
+  }
+
+  .svamp1_container {
+    position: absolute;
+    width: 20%;
+    aspect-ratio: 79/75;
+    top: -1%;
+    left: 5%;
+    transform: translateY(-240%);
+  }
+
+  .svamp1_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/svamp1.svg);
+    background-size: cover;
+  }
+
+  .svamp2_container {
+    position: absolute;
+    width: 22%;
+    aspect-ratio: 17/15;
+    top: -1%;
+    left: 72%;
+    transform: translateY(-170%);
+  }
+
+  .svamp2_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/svamp2.svg);
+    background-size: cover;
+  }
+
+  .svamp3_container {
+    position: absolute;
+    width: 14%;
+    aspect-ratio: 62/75;
+    top: -1%;
+    left: 25%;
+    transform: translateY(5%);
+  }
+
+  .svamp3_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(billeder/svamp3.svg);
+    background-size: cover;
   }
 
   .product_submit_knap {

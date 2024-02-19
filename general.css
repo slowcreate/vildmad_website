@@ -254,10 +254,16 @@ span {
   }
 
   header {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #logo {
+    grid-column: 1;
+  }
+
+  .navbar {
+    grid-column: 2/4;
   }
 
   span {

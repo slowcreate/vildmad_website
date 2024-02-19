@@ -41,4 +41,8 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  #category_menu li:hover h2 {
+    color: #ff8a00;
+  }
 }

@@ -56,10 +56,10 @@ function showProducts(productJSON) {
   productJSON.forEach((product) => {
     console.log("Product", product);
     productClone = productTemplate.cloneNode(true).content;
-    productClone.querySelector(".product_image").src = product.image_url;
+    productClone.querySelector(".product_image").src = product.image;
     productClone.querySelector(".product_name").textContent = product.name;
     productClone.querySelector(".season").textContent = product.season;
-    productClone.querySelector(".description").textContent = product.description;
+    // productClone.querySelector(".description").textContent = product.description;
     productContainer.appendChild(productClone);
   })
 }

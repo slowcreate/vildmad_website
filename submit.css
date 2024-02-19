@@ -6,6 +6,7 @@ h4 {
 }
 
 h1 {
+  margin-top: 70px;
   margin-left: 30px;
 }
 
@@ -153,6 +154,7 @@ a:hover {
     font-size: 1rem;
     text-align: left;
     margin-left: 35px;
+    margin-right: 45px;
   }
 
   .emoji {

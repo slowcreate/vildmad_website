@@ -38,6 +38,8 @@ ul {
 
 /* LOGO computer */
 
+/*HEADER*/
+
 /*FORSIDE*/
 
 body {
@@ -98,35 +100,6 @@ span {
 }
 .some img {
   max-width: 48px;
-}
-
-/* Burgermenu */
-
-header {
-  margin: auto;
-}
-
-.burgerbar {
-  display: block;
-  width: 30px;
-  height: 3.5px;
-  margin: 8px;
-  background-color: #40793e;
-  border-radius: 3px;
-  position: relative;
-  z-index: 20;
-}
-/* .hamburger {
-} */
-
-.hamburger.active .burgerbar:nth-child(2) {
-  opacity: 0;
-}
-.hamburger.active .burgerbar:nth-child(1) {
-  transform: translateY(8px) rotate(45deg);
-}
-.hamburger.active .burgerbar:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg);
 }
 
 @media (min-width: 800px) {

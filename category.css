@@ -1,0 +1,44 @@
+#logo {
+  padding: 15px;
+  max-width: 390px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+/* Kategori menu */
+
+#category_menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+#category_menu li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 40px;
+}
+
+#category_menu img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#category_menu h2 {
+  margin-left: 18px;
+  font-size: 24px;
+  padding-top: 50px;
+}
+
+@media (min-width: 800px) {
+  #category_menu ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}

@@ -4,6 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
     <title>Produktliste</title>
     <link rel="stylesheet" href="general.css">
     <link rel="stylesheet" href="submit.css">
@@ -11,64 +15,101 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <a href="index.html"><img id="logo" src="billeder/logomobile.svg" alt="logo Vild Mad"></a>
-        <!-- <menu id="index_menu">
-            <ul>
-                <li>
-                    <a href="category.html">
-                        <img src="billeder/treesmobile.svg" alt="forest drawing">
-                        <h2>Forest</h2>
-                    </a>
+
+        <nav class="navbar">
+            <a href="index.html"><img id="logo" src="billeder/logomobile.svg" alt="logo Vild Mad"></a>
+
+            <ul class="nav_menu">
+                <li class="nav_item">
+                    <a href="category.html" class="nav_link">Forest</a>
                 </li>
-                <li>
-                    <a href="#">
-                        <img src="billeder/townmobile.svg" alt="town drawing">
-                        <h2>In the City</h2>
-                    </a>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">In the city</a>
                 </li>
-                <li>
-                    <a href="#">
-                        <img src="billeder/fishmobile.svg" alt="fish drawing">
-                        <h2>Near Water</h2>
-                    </a>
+                <li class="nav_item">
+                    <a href="#" class="nav_link">Near Water</a>
                 </li>
+
             </ul>
-        </menu> 
-        <div class="hamburger">
-            <span class="burgerbar"></span>
-            <span class="burgerbar"></span>
-            <span class="burgerbar"></span>
-        </div>-->
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </nav>
+
     </header>
     <main>
-        <h1>Explore & <br> Taste Submissions</h1>
-        <p></p>
-        <form action="">
-            <div>
-                <h4>Name:</h4>
-                <input type="" name="" id="">
-                <h4>Email:</h4>
-                <input type="email" name="" id="">
-                <h4>Name of your find:</h4>
-                <input type="text" name="" id="">
-                <h4>Discovery Location</h4>
-                <input type="" name="" id="">
+        <h1>Explore & Taste Submissions</h1>
+        <p>Explore the world around you! Fill out this formular with any tasty treasures you discover in the forest,
+            city, or by the water. Found something delicious? Let us know, and let's uncover the diverse flavors of
+            nature together! 🌿🍓🍄</p>
+        <p class="emoji">🌿🍓🍄</p>
+        <form action="" netflify>
+            <div class="form_container">
+                <div class="form_grid">
+                    <div>
+                        <h4>Name:</h4>
+                        <input type="" name="" id="" required>
+                    </div>
+                    <div>
+                        <h4>Email:</h4>
+                        <input type="email" name="" id="" required>
+                    </div>
+                    <div>
+                        <h4>Name of your find:</h4>
+                        <input type="text" name="" id="" required>
+                    </div>
+                    <div>
+                        <h4>Discovery Location:</h4>
+                        <input type="textarea" name="" id="" required>
+                    </div>
+                    <div class="text">
+                        <h4>What are you gonna cook with your find?</h4>
+                        <a href="https://vildmad.dk/dk/opskrifter">Inspiration: https://vildmad.dk/dk/opskrifter
+                        </a><br>
+                        <textarea name="message"></textarea>
+                    </div>
+                </div>
+
+
+                <div class="form_sprite">
+
+                    <h4>Photo of your find:</h4>
+                    <div class="file-input-container">
+                        <label for="file" class="custom-button">
+                            <img src="billeder/insertpic.svg" alt="Choose File"> </label>
+                        <input type="file" id="file" class="file-input" />
+                    </div>
+                    <h4>What season is your find discoverable in?</h4>
+                    <div class="checkbox_seasons">
+                        <label for="summer" class="checkbox-label">
+                            <input class="checkbox" type="checkbox" name="season" id="summer"> Summer
+                        </label>
+                        <label for="fall" class="checkbox-label">
+                            <input class="checkbox" type="checkbox" name="season" id="fall"> Fall
+                        </label>
+                        <label for="winter" class="checkbox-label">
+                            <input class="checkbox" type="checkbox" name="season" id="winter"> Winter
+                        </label>
+                        <label for="spring" class="checkbox-label">
+                            <input class="checkbox" type="checkbox" name="season" id="spring"> Spring
+                        </label>
+                    </div>
+                </div>
             </div>
-            <h4>What are you gonna cook with your find?</h4>
-            <a href="https://vildmad.dk/dk/opskrifter">Inspiration: https://vildmad.dk/dk/opskrifter </a>
-            <input type="text" name="" id="">
-            <h4>Photo of your find:</h4>
-            <input type="image" name="" id="">
-            <h4>What season is your find discoverable in?</h4>
-            <input class="radio" type="radio" name="" id="">
-            <input class="radio" type="radio" name="" id="">
-            <input class="radio" type="radio" name="" id="">
-            <input class="radio" type="radio" name="" id="">
+            <input class="submit button" type="submit">
         </form>
+
     </main>
     <footer>
         <div class="logo_footer">
@@ -92,6 +133,9 @@
             <img src="billeder/insta_2.svg" alt="instagram logo">
         </div>
     </footer>
+
+    <script src="burger.js"></script>
+
 </body>
 
 </html>

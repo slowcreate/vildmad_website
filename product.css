@@ -1,0 +1,128 @@
+h3 {
+  color: #ff8a00;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 550;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
+.product_headline {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.img_product {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.description {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.info_product {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.info_product p {
+  margin-left: 20px;
+}
+
+.product_submit_knap {
+  justify-content: center;
+  align-items: center;
+}
+
+.product_submit_knap article {
+  text-align: center; /* Centrerer teksten vandret */
+  margin-bottom: 50px;
+}
+
+.illustrations {
+  display: ;
+}
+
+.othermushrooms {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.grid_mushrooms {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.mushroom_1,
+.mushroom_2 {
+  margin-bottom: 10px;
+}
+
+/*DESKTOP*/
+@media (min-width: 768px) {
+  .product_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .description {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .product_headline {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .img_product {
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+
+  .info {
+    margin: 0;
+  }
+
+  .info_product {
+    display: flex;
+    flex-direction: column; /* Sørger for at teksterne er stablet i en kolonne */
+    justify-content: flex-start; /* Centrerer indholdet horisontalt */
+    align-items: center; /* Centrerer indholdet vertikalt */
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 60px;
+  }
+
+  .info_product p {
+    margin-bottom: 30px; /* Tilføjer luft mellem hver paragraf (juster efter behov) */
+  }
+
+  .product_submit_knap {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product_submit_knap article {
+    text-align: center; /* Centrerer teksten vandret */
+    margin-bottom: 100px;
+  }
+
+  .grid_mushrooms {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-bottom: 100px;
+  }
+}

@@ -8,6 +8,13 @@ img {
   height: 100%;
 }
 
+p {
+  color: #aea5e3;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.9rem;
+}
+
 h1 {
   color: #ff8a00;
   font-family: "Josefin Sans", sans-serif;
@@ -22,6 +29,15 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  color: #aea5e3;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 550;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
 h4 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
@@ -30,11 +46,27 @@ h4 {
 
 a {
   text-decoration: none;
+  cursor: pointer;
+  color: #132405;
+  font-family: "Noto Sans", sans-serif;
 }
 ul {
   list-style: none;
 }
+
 /* LOGO mobil */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#logo {
+  padding: 15px;
+  max-width: 390px;
+  width: 100%;
+  margin-top: 10px;
+}
 
 /* LOGO computer */
 
@@ -139,6 +171,25 @@ body {
   background-color: #132405;
 }
 
+.button {
+  padding: 60px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-transform: uppercase;
+  color: #132405;
+  background-color: #40793e;
+  font-family: "Josefin Sans", sans-serif;
+  border: none;
+  border-radius: 3px;
+  /* margin-top: 3px; */
+}
+
+.button:hover {
+  color: #132405;
+  background-color: #ff8a00;
+  cursor: pointer;
+}
+
 /*FOOTER*/
 
 footer {
@@ -200,6 +251,13 @@ span {
     margin: 65px;
     margin-bottom: 25px;
     margin-top: 38px;
+  }
+
+  #logo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
   }
 
   span {

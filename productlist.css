@@ -48,8 +48,19 @@
   margin: 1rem;
 }
 
+/* ------ teksterne -------- */
 .product_container h2 {
   font-size: large;
   color: #ff8a00;
   text-align: center;
+}
+
+.rarity {
+  background-color: green;
+  padding: 0.5rem;
+  position: sticky;
+}
+
+.hide {
+  display: non;
 }

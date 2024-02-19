@@ -3,6 +3,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 4rem;
 }
 
 /* -------- PRODUKTLISTE ------------ */
@@ -32,9 +34,9 @@
   padding: 0.5rem;
 }
 
-.produkt_image {
+.product_image {
   max-width: 100%;
-  height: 250px;
+  border-radius: 200px;
 }
 
 /* ---- Produktliste grid ------ */
@@ -42,4 +44,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 290px));
   gap: 3.2rem;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.product_container h2 {
+  font-size: large;
+  color: #ff8a00;
+  text-align: center;
 }

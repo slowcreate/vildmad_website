@@ -19,6 +19,8 @@ h1 {
   color: #ff8a00;
   font-family: "Josefin Sans", sans-serif;
   font-size: 48px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 h2 {
@@ -123,7 +125,7 @@ li {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #40793e;
+  background-color: #aea5e3;
 }
 
 @media (max-width: 768px) {

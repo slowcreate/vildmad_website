@@ -98,6 +98,8 @@ li {
   align-items: center;
   gap: 100px;
   margin-right: 50px;
+  padding: 60px;
+  padding-bottom: 400%;
 }
 
 .nav_branding {

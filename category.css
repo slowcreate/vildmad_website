@@ -16,6 +16,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 90px;
 }
 
 #category_menu li {

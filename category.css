@@ -39,7 +39,9 @@ h1 {
   #category_menu ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   #category_menu li:hover h2 {

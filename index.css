@@ -8,7 +8,7 @@
 #index_menu ul {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
 }
 #index_menu li a {
   display: flex;

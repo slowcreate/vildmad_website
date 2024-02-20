@@ -1,3 +1,4 @@
+// test af fetch af produktliste
 window.addEventListener("DOMContentLoaded", init);
 
 const productURL = "https://qmyalvetxznlhsyfuzba.supabase.co/rest/v1/mushrooms";
@@ -5,7 +6,6 @@ const apikey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJ
 
 let productTemplate;
 let productContainer;
-//
 
 function init() {
   console.log("init");
@@ -38,9 +38,10 @@ function showProducts(productJSON) {
     productClone = productTemplate.cloneNode(true).content;
     productClone.querySelector(".product_image").src = product.image;
     productClone.querySelector(".product_name").textContent = product.name;
-    productClone.querySelector(".season").textContent = product.season;
     productClone.querySelector("a").href = "product.html?id=" + product.id;
-    // productClone.querySelector(".description").textContent = product.description;
+    if (product.rare) {
+      productClone.querySelector(".rare").classList.remove("hide");
+    }
     productContainer.appendChild(productClone);
   });
 }

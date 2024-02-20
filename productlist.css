@@ -18,14 +18,6 @@
   cursor: pointer;
 }
 
-.produkt_link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .produkt_image_container {
   background-color: rgb(221, 233, 238);
   display: flex;
@@ -47,9 +39,32 @@
   justify-content: center;
   margin: 1rem;
 }
+.product_container {
+  margin-bottom: 5rem;
+}
 
+/* ------ teksterne -------- */
 .product_container h2 {
   font-size: large;
   color: #ff8a00;
   text-align: center;
+}
+.product_container p {
+  color: #132405;
+}
+
+/* ------ ORANGE RARE TAG -------- */
+.rare {
+  background-color: #ff8a00;
+  padding: 0.4rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  position: absolute;
+  border-radius: 4px;
+  left: 62%;
+  top: 13%;
+}
+
+.hide {
+  display: none;
 }

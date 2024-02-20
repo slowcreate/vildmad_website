@@ -46,7 +46,11 @@
   color: #ff8a00;
   text-align: center;
 }
+.product_container p {
+  color: #132405;
+}
 
+/* ------ ORANGE RARE TAG -------- */
 .rare {
   background-color: #ff8a00;
   padding: 0.4rem;
@@ -56,10 +60,6 @@
   border-radius: 4px;
   left: 62%;
   top: 13%;
-}
-
-.product_container p {
-  color: #132405;
 }
 
 .hide {

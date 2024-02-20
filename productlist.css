@@ -48,8 +48,32 @@
   margin: 1rem;
 }
 
+/* ------ teksterne -------- */
 .product_container h2 {
   font-size: large;
   color: #ff8a00;
   text-align: center;
+}
+
+.rare {
+  background-color: #ff8a00;
+  padding: 0.4rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  position: absolute;
+  border-radius: 4px;
+  left: 62%;
+  top: 13%;
+}
+
+.product_container p {
+  color: #132405;
+}
+
+.hide {
+  display: none;
+}
+
+.product_container {
+  margin-bottom: 5rem;
 }

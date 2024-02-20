@@ -1,12 +1,14 @@
+// test af fetch af produktliste
 window.addEventListener("DOMContentLoaded", init);
 
 const productURL = "https://qmyalvetxznlhsyfuzba.supabase.co/rest/v1/mushrooms";
-const apikey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFteWFsdmV0eHpubGhzeWZ1emJhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc5OTI4OTYsImV4cCI6MjAyMzU2ODg5Nn0.dfZQy2h04COSqrYNSAorBU6RJr9hRLvEKJ-MhFLPTsM";
+const apikey= "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFteWFsdmV0eHpubGhzeWZ1emJhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDc5OTI4OTYsImV4cCI6MjAyMzU2ODg5Nn0.dfZQy2h04COSqrYNSAorBU6RJr9hRLvEKJ-MhFLPTsM"
 
+          
 let productTemplate;
 let productContainer;
-//
 
+        
 function init() {
   console.log("init");
 
@@ -18,8 +20,8 @@ function init() {
 
   fetch(productURL, {
     headers: {
-      apikey: apikey,
-    },
+      apikey:apikey
+    }
   })
     .then(function (response) {
       return response.json();
@@ -30,7 +32,7 @@ function init() {
 }
 
 function showProducts(productJSON) {
-  console.log(productJSON);
+  console.log(productJSON)
   let productClone;
 
   productJSON.forEach((product) => {
@@ -38,9 +40,11 @@ function showProducts(productJSON) {
     productClone = productTemplate.cloneNode(true).content;
     productClone.querySelector(".product_image").src = product.image;
     productClone.querySelector(".product_name").textContent = product.name;
-    productClone.querySelector(".season").textContent = product.season;
-    productClone.querySelector("a").href = "product.html?id=" + product.id;
-    // productClone.querySelector(".description").textContent = product.description;
+    // productClone.querySelector(".season").textContent = product.season;
+    if(product.rare){
+      productClone.querySelector(".rare").classList.remove("hide");
+    }
+    
     productContainer.appendChild(productClone);
-  });
+  })
 }

@@ -40,8 +40,11 @@ function showProducts(productJSON) {
     productClone = productTemplate.cloneNode(true).content;
     productClone.querySelector(".product_image").src = product.image;
     productClone.querySelector(".product_name").textContent = product.name;
-    productClone.querySelector(".season").textContent = product.season;
-    productClone.querySelector(".rarity").textContent = product.rarity;
+    // productClone.querySelector(".season").textContent = product.season;
+    if(product.rare){
+      productClone.querySelector(".rare").classList.remove("hide");
+    }
+    
     productContainer.appendChild(productClone);
   })
 }

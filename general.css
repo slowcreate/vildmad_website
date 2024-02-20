@@ -98,8 +98,8 @@ li {
   align-items: center;
   gap: 100px;
   margin-right: 50px;
-  padding: 60px;
-  padding-bottom: 400%;
+  padding: 0;
+  padding-bottom: 0;
 }
 
 .nav_branding {
@@ -159,6 +159,8 @@ li {
     transition: 0.3s;
     z-index: 1;
     background-color: #aea5e3;
+    padding: 60px;
+    padding-bottom: 400%;
   }
 
   .nav_item {

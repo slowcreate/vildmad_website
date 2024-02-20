@@ -57,7 +57,7 @@ ul {
 /* LOGO mobil */
 header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -86,7 +86,7 @@ li {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 30px;
   /* margin-top: 20px; */
 }
 
@@ -123,7 +123,7 @@ li {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #aea5e3;
+  background-color: #40793e;
 }
 
 @media (max-width: 768px) {
@@ -136,25 +136,25 @@ li {
   }
 
   .hamburger.active .bar:nth-child(1) {
-    transform: translate(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-    transform: translate(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
   }
 
   .nav_menu {
-    position: fixed;
+    position: absolute;
     left: -100%;
-    top: 70px;
+    top: 130px;
     gap: 0;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 33%;
     text-align: center;
-    background-color: #aea5e3;
     transition: 0.3s;
     z-index: 1;
+    background-color: #aea5e3;
   }
 
   .nav_item {

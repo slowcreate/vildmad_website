@@ -35,12 +35,12 @@ h3 {
   margin-left: 20px;
 }
 
-.product_submit_knap {
+.product_knap {
   justify-content: center;
   align-items: center;
 }
 
-.product_submit_knap article {
+.product_knap article {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -173,7 +173,7 @@ h3 {
     aspect-ratio: 79/75;
     top: -1%;
     left: 5%;
-    transform: translateY(-240%);
+    transform: translateY(-170%);
   }
 
   .svamp1_sprite {
@@ -185,11 +185,11 @@ h3 {
 
   .svamp2_container {
     position: absolute;
-    width: 22%;
+    width: 18%;
     aspect-ratio: 17/15;
     top: -1%;
     left: 72%;
-    transform: translateY(-170%);
+    transform: translateY(-150%);
   }
 
   .svamp2_sprite {
@@ -201,7 +201,7 @@ h3 {
 
   .svamp3_container {
     position: absolute;
-    width: 14%;
+    width: 10%;
     aspect-ratio: 62/75;
     top: -1%;
     left: 25%;

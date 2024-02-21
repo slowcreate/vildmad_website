@@ -119,7 +119,7 @@ h3 {
 }
 
 /*DESKTOP*/
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .product_container {
     display: grid;
     grid-template-columns: 1fr 1fr;

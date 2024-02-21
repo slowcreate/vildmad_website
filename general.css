@@ -25,7 +25,8 @@ h1 {
   margin-right: 10px;
 }
 
-h2 {
+h2,
+h3 {
   color: #aea5e3;
   font-family: "Josefin Sans", sans-serif;
   font-size: 32px;
@@ -34,11 +35,8 @@ h2 {
 }
 
 h3 {
-  color: #aea5e3;
-  font-family: "Josefin Sans", sans-serif;
   font-size: 19px;
   font-weight: 550;
-  text-transform: uppercase;
   margin: 20px;
 }
 

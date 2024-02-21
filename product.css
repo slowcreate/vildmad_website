@@ -97,6 +97,12 @@ h3 {
   background-size: cover;
 }
 
+.product_submit {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
 .othermushrooms {
   text-align: center;
   margin-top: 50px;
@@ -204,8 +210,8 @@ h3 {
     width: 10%;
     aspect-ratio: 62/75;
     top: -1%;
-    left: 25%;
-    transform: translateY(5%);
+    left: 15%;
+    transform: translateY(30%);
   }
 
   .svamp3_sprite {
